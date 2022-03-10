@@ -1,0 +1,15 @@
+steps: 
+- name: 'gcr.io/cloud-builders/docker'
+  id: Build 
+  args:
+  - 'build'
+  - '-t'
+  - 'gcr.io/$PROJECT_ID/ooioioogt/api-tests:latest'
+  - '.'
+
+
+- name: 'gcr.io/cloud-builders/docker'
+  id : push 
+  args: 
+  - 'push'
+  - 'gcr.io/$PROJECT_ID/ooioioogt/api-tests:latest'
