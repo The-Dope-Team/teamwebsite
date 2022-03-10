@@ -25,6 +25,6 @@ steps:
   args:
     - run
     - --filename=dev.yaml
-    - --image=gcr.io/$PROJECT_ID/the-dope-team/teamwebsite:$SHORT_SHA
+    - --image=gcr.io/$PROJECT_ID/the-dope-team/teamwebsite:latest
     - --location=us-east1-b
     - --cluster=cluster-1
