@@ -5,7 +5,7 @@ steps:
   args:
   - 'build'
   - '-t'
-  - 'gcr.io/$PROJECT_ID/loggs44/api-tests:latest'
+  - 'gcr.io/$PROJECT_ID/the-dope-team/teamwebsite:latest'
   - '.'
 
 # The above command runs: docker build -t gcr.io/$PROJECT_ID/constellationweb:latest .
@@ -17,7 +17,7 @@ steps:
   id: Push
   args:
   - 'push'
-  - 'gcr.io/$PROJECT_ID/loggs44/api-tests:latest'
+  - 'gcr.io/$PROJECT_ID/the-dope-team/teamwebsite:latest'
 
 # This step deploys the application in Kubernetes
 - name: 'gcr.io/cloud-builders/gke-deploy'
