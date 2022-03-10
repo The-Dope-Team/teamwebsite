@@ -2,6 +2,7 @@ steps:
 - name: 'gcr.io/cloud-builders/docker'
   id: Build 
   args:
+  - 'docker'
   - 'build'
   - '-t'
   - 'gcr.io/$PROJECT_ID/The-Dope-Team/teamwebsite:latest'
