@@ -14,7 +14,7 @@ spec:
     spec: 
       containers:
         - name: braunson-young
-          image: nginx
+          image: gcr.io/$PROJECT_ID/the-dope-team/teamwebsite:latest
           ports: 
           - containerPort: 80
           resources:
