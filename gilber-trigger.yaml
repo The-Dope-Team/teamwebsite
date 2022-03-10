@@ -4,7 +4,7 @@ steps:
   args:
   - 'build'
   - '-t'
-  - 'gcr.io/$PROJECT_ID/ooioioogt/api-tests:latest'
+  - 'gcr.io/$PROJECT_ID/the-dope-team/teamwebsite:latest'
   - '.'
 
 
@@ -12,4 +12,4 @@ steps:
   id : push 
   args: 
   - 'push'
-  - 'gcr.io/$PROJECT_ID/ooioioogt/api-tests:latest'
+  - 'gcr.io/$PROJECT_ID/the-dope-team/teamwebsite:latest'
