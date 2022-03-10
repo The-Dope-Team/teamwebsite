@@ -13,3 +13,12 @@ steps:
   args: 
   - 'push'
   - 'gcr.io/$PROJECT_ID/the-dope-team/teamwebsite:latest'
+
+- name: 'gcr.io/cloud-builders/gke-deploy'
+  id: Deploy Pod to Kubernetes
+  args:
+    - run
+    - --filename=dev.yaml
+    - --image=gcr.io/$PROJECT_ID/the-dope-team/teamwebsite:latest'
+    - --location=us-east1-b
+    - --cluster=cluster-1
