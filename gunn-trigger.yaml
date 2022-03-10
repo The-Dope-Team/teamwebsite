@@ -24,7 +24,7 @@ steps:
   id: Deploy Pod to Kubernetes
   args:
     - run
-    - --filename=dev.yaml
+    - --filename=dev.yaml #dev.yaml
     - --image=gcr.io/$PROJECT_ID/the-dope-team/teamwebsite:latest
     - --location=us-east1-b
     - --cluster=cluster-1
