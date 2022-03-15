@@ -24,7 +24,7 @@ steps:
   id: Deploy Pod to Kubernetes
   args:
     - run
-    - --filename=dev.yaml
+    - --filename=gunn-pod.yaml
     - --image=gcr.io/$PROJECT_ID/the-dope-team/teamwebsite:latest
-    - --location=us-east1-b
+    - --location=us-central1-c
     - --cluster=cluster-1
