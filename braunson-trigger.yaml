@@ -25,6 +25,6 @@ steps:
   args:
     - run
     - --filename=braunson-pod.yaml
-    - --image=gcr.io/$PROJECT_ID/teamwebsite:latest
+    - --image=gcr.io/$PROJECT_ID/the-dope-team/teamwebsite:latest'
     - --location=us-central1-c
     - --cluster=cluster-1
