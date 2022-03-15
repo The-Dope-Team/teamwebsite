@@ -17,14 +17,14 @@ steps:
   id: Push
   args:
   - 'push'
-  - 'gcr.io/$PROJECT_ID/the-dope-team/teamwebsite:latest'
+  - 'gcr.io/$PROJECT_ID/teamwebsite:latest'
 
 # This step deploys the application in Kubernetes
 - name: 'gcr.io/cloud-builders/gke-deploy'
   id: Deploy Pod to Kubernetes
   args:
-    - run
-    - --filename=braunson-pod.yaml
-    - --image=gcr.io/$PROJECT_ID/the-dope-team/teamwebsite:latest'
-    - --location=us-central1-c
-    - --cluster=cluster-1
+    - 'run'
+    - '--filename=braunson-pod.yaml'
+    - '--image=gcr.io/$PROJECT_ID/teamwebsite:latest'
+    - '--location=us-central1-c'
+    - '--cluster=cluster-1'
