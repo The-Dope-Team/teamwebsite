@@ -18,7 +18,7 @@ steps:
   id: Deploy Pod to Kubernetes
   args:
     - run
-    - --filename=dev.yaml
+    - --filename=gilber-trigger.yaml
     - --image=gcr.io/$PROJECT_ID/The-Dope-Team/teamwebsite:latest'
     - --location=us-central1-c	
     - --cluster=cluster-1
