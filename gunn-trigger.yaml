@@ -25,6 +25,6 @@ steps:
   args:
     - 'run'
     - '--filename=gunn-pod.yaml' #dev.yaml
-    - '--image=gcr.io/$PROJECT_ID/the-dope-team/teamwebsite:latest'
+    - '--image=gcr.io/the-dope-team/teamwebsite:latest'
     - '--location=us-central1-c'
     - '--cluster=cluster-1'
