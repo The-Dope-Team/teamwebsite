@@ -14,7 +14,7 @@ spec:
     spec: 
       containers:
         - name: logan-clark
-          image: gcr.io/$PROJECT_ID/the-dope-team/teamwebsite:latest
+          image: gcr.io/the-dope-team/teamwebsite:latest
           ports:
           - containerPort: 3000
           resources:
