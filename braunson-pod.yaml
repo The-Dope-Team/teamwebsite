@@ -31,7 +31,7 @@ metadata:
   name: braunson-pod-service
 spec:
   selector: 
-    app: brauson-young
+    app: braunson-young
   type: LoadBalancer
   ports: 
   - port: 80 
