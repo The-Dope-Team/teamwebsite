@@ -32,7 +32,7 @@ metadata:
 spec: 
   selector: 
     app: gilber-chen
-    type: LoadBalance
+  type: LoadBalancer
   ports:
   - port: 80 
     targetPort: 3000
