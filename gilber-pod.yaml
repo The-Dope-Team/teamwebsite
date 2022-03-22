@@ -24,4 +24,16 @@ spec:
             requests: 
               cpu: 50m 
               memory: 100M
+---
+apiVersion: v1 
+kind: Service 
+metadata: 
+  name: gilber-chen-service 
+spec: 
+  selector: 
+    app: gilber-chen
+    type: LoadBalance
+  ports:
+  - port: 80 
+    targetPort: 3000
               
