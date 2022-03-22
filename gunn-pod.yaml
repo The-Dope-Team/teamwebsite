@@ -24,3 +24,14 @@ spec:
           requests:
             cpu: 50m
             memory: 100M
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: gunn-pod-service
+spec:
+  selector:
+    app: todd-gunn
+  ports:
+  - port: 80
+    targetPort: 80
