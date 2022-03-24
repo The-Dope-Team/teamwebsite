@@ -1,5 +1,5 @@
 import loadbraunsonurl from '../utils/loadbraunsonurl.mjs';
-import assert from assert
+import assert from 'assert';
 
 it ("Tests Braunson URL Endpoint", async ()=>{
     const urlResponse = await loadbraunsonurl();
