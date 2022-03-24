@@ -1,4 +1,4 @@
-import loadbraunsonurl from '../utils/load_braunson_url.mjs';
+import loadbraunsonurl from '../utils/loadbraunsonurl.mjs';
 import assert from assert
 
 it ("Tests Braunson URL Endpoint", async ()=>{
