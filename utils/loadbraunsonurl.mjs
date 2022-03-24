@@ -13,4 +13,4 @@ const options = {
     return testResponse
 };
 
-export default load_braunson_url;
+export default loadbraunsonurl;
