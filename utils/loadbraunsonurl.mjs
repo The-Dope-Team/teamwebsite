@@ -7,7 +7,7 @@ const options = {
         headers: {'Content-Type': 'application/json'}
     };
 
-    const apiResponse = await fetch('https://localhost:3000/braunson', options);
+    const apiResponse = await fetch('http://localhost:3000/braunson', options);
     const testResponse = apiResponse.text();
 
     return testResponse
