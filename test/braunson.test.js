@@ -4,6 +4,6 @@ import assert from assert
 it ("Tests Braunson URL Endpoint", async ()=>{
     const urlresponse = await load_braunson_url();
     console.log("URL Response: ")+urlresponse;
-    assert.equal(urlresponse, "Hey Braunson, How is life?");
+    assert.equal(urlresponse, "Hello Braunson");
 
 });
