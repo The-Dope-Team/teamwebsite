@@ -1,6 +1,6 @@
 import fetch from "node-fetch";
 
-const load_braunson_url = async () =>{
+const loadbraunsonurl = async () =>{
 
 const options = {
     method:'GET',
