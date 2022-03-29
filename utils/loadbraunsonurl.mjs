@@ -7,7 +7,7 @@ const options = {
         headers: {'Content-Type': 'application/json'}
     };
 
-    const apiResponse = await fetch('34.68.158.225/braunson', options);
+    const apiResponse = await fetch('10.8.11.1/braunson', options);
     const testResponse = apiResponse.text();
 
     return testResponse
