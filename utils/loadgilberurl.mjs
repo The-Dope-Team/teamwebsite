@@ -7,7 +7,7 @@ const options = {
         headers: {'Content-Type': 'application/json'}
     };
 
-    const apiResponse = await fetch('http://34.134.85.107', options);
+    const apiResponse = await fetch('http://34.134.85.107/gilber', options);
     const testResponse = apiResponse.text();
 
     return testResponse
