@@ -30,7 +30,7 @@ steps:
     - '--cluster=cluster-1'
 
 - name: 'gcr.io/cloud-builders/docker'
-  id: test
+  id: run
   env:
   - 'NODE_ENV=development'
   args:
