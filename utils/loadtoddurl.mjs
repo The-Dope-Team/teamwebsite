@@ -7,7 +7,7 @@ const loadtoddurl = async () => {
         headers : {'Content-Type':'application/json'}
     };
 
-    const apiResponse = await fetch('http://localhost:3000/todd', options);
+    const apiResponse = await fetch('http://35.202.100.4/todd', options);
     const testResponse = await apiResponse.text();
 
     return testResponse;
