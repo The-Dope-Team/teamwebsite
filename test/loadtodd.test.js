@@ -7,5 +7,3 @@ it("Tests Todd URL endpoint", async ()=>{
     console.log("URL Response: ") + urlResponse;
     assert.equal(urlResponse, "Hello Todd");
 })
-
-
